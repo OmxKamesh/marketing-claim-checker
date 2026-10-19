@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "claims": [
+    {"id": "formats", "claim": "The local feature inventory lists CSV and JSON export.", "scope": "Exact inventory text only; exports have not been executed.", "checks": [{"kind": "exact-lines", "source": {"path": "product.txt", "start": 1, "end": 1}, "expected": "Export formats: CSV, JSON"}]},
+    {"id": "team-size", "claim": "The local inventory says maximum team size is 50.", "scope": "Exact inventory text only; no deployed limits were inspected.", "checks": [{"kind": "exact-lines", "source": {"path": "product.txt", "start": 3, "end": 3}, "expected": "Maximum team size: 50"}]},
+    {"id": "uptime", "claim": "The product has 99.99% uptime.", "scope": "No measurement or approved external evidence available.", "checks": []}
+  ]
+}

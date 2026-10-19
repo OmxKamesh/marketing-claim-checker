@@ -1,0 +1,3 @@
+Export formats: CSV, JSON
+Offline mode: supported
+Maximum team size: 20

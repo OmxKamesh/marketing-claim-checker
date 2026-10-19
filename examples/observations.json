@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "claims": [
+    {
+      "id": "exports",
+      "exact_text": "Exports work on all plans.",
+      "source": {
+        "path": "observed-claims.txt",
+        "start": 1,
+        "end": 1
+      },
+      "scope": "Free and Pro export acceptance",
+      "required_checks": [
+        "pro",
+        "free"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "pro-observation",
+      "claim_id": "exports",
+      "check_id": "pro",
+      "scope": "Free and Pro export acceptance",
+      "result": "pass",
+      "method": "Synthetic fixture; no real product or browser was observed.",
+      "time": "2026-10-01T00:00:00Z",
+      "valid_until": "2027-10-01T00:00:00Z",
+      "artifact": {
+        "path": "synthetic-test-record.txt",
+        "sha256": "0b4b773ccea049e8b8463beb2b26698cec53289a4a5f14bc0ba9fa76f8ce8377"
+      }
+    },
+    {
+      "id": "free-observation",
+      "claim_id": "exports",
+      "check_id": "free",
+      "scope": "Free and Pro export acceptance",
+      "result": "fail",
+      "method": "Synthetic fixture; no real product or browser was observed.",
+      "time": "2026-10-01T00:00:00Z",
+      "valid_until": "2027-10-01T00:00:00Z",
+      "artifact": {
+        "path": "synthetic-test-record.txt",
+        "sha256": "0b4b773ccea049e8b8463beb2b26698cec53289a4a5f14bc0ba9fa76f8ce8377"
+      }
+    }
+  ]
+}
