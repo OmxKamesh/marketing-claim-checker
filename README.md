@@ -54,6 +54,10 @@ Literal checks prove what local text says, not whether a product actually delive
 
 This complements documentation linters and onboarding auditors: its focus is an explicit, reproducible assertion ledger with evidence fingerprints, rather than prose quality or quickstart execution. It does not claim to be the first claim-audit tool.
 
-Outputs may include sensitive claim text or paths even when excerpts are off. Review before sharing. All bundled examples are synthetic. No license has been selected; publication alone does not grant reuse rights.
+Outputs may include sensitive claim text or paths even when excerpts are off. Review before sharing. All bundled examples are synthetic. License: MIT, see [LICENSE](LICENSE).
 
 Claude skill references: [official skills documentation](https://code.claude.com/docs/en/skills), [Agent Skills engineering overview](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills).
+
+---
+
+Built by Kamesh Jindal at [OMX Digital](https://omxdigital.ai). Part of the [OMX Claude Skills toolkit](https://github.com/OmxKamesh/claude-skills-toolkit). Need this set up for your business? [kamesh@omxdigital.ai](mailto:kamesh@omxdigital.ai)
